@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles/rock-paper-scissors.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading-container">
+        <p class="heading">Rock Paper Scissors</p>
+      </div>
+      <div class="image-container">
+        <button
+          onclick="
+      playGame('rock');
+    "
+          class="image-button"
+        >
+          <img
+            src="image/rock-image.png"
+            alt="Rock image"
+            class="select-image"
+          />
+        </button>
+
+        <button
+          onclick="
+      playGame('paper');
+    "
+          class="image-button"
+        >
+          <img
+            src="image/paper-image.png"
+            alt="Paper image"
+            class="select-image"
+          />
+        </button>
+
+        <button
+          onclick="
+      playGame('scissors');
+    
+    "
+          class="image-button"
+        >
+          <img
+            src="image/scissors-image.png"
+            alt="Scissors image"
+            class="select-image"
+          />
+        </button>
+      </div>
+      <div class="result-container">
+        <p class="js-result result"></p>
+      </div>
+      <div class="moves-container">
+        <p class="js-moves"></p>
+      </div>
+      <div class="score-container">
+        <p class="js-score score"></p>
+      </div>
+      <div class="reset-button-container">
+        <button
+          onclick="
+      score.win =0;
+      score.lose =0;
+      score.tie=0;
+      localStorage.removeItem('score');
+      updateScoreElement();
+    "
+          class="reset-score-button"
+        >
+          Reset Game
+        </button>
+      </div>
+      <div class="footer-container">
+        <p class="footer">
+          Created By @ Prit Sakhvala
+          <button class="git-hub">
+            <a href="https://github.com/pritsakhvala" target="_blank">GitHub</a>
+          </button>
+        </p>
+      </div>
+    </div>
+    <script src="scripts/rock-paper-scissors.js"></script>
+  </body>
+</html>

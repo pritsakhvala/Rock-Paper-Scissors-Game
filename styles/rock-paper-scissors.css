@@ -1,0 +1,103 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+}
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(171, 134, 134);
+}
+.select-image {
+  height: 50px;
+  width: 50px;
+}
+.image-button {
+  background-color: transparent;
+  border: 3px solid rgb(171, 134, 134);
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+.image-button:hover {
+  background-color: rgb(39, 38, 38);
+  border-color: rgb(193, 215, 212);
+}
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+  color: rgb(171, 134, 134);
+}
+.score {
+  margin-top: 60px;
+}
+.reset-score-button {
+  border: none;
+  padding: 8px 15px;
+  color: black;
+  font-weight: bold;
+  background-color: rgb(171, 134, 134);
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: opacity 0.15s, color 0.15s;
+}
+.reset-score-button:hover {
+  opacity: 0.95;
+  color: rgb(193, 215, 212);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.score-container {
+  display: flex;
+  justify-content: center;
+  color: rgb(171, 134, 134);
+}
+.result-container {
+  display: flex;
+  justify-content: center;
+}
+.moves-container {
+  display: flex;
+  justify-content: center;
+  color: rgb(171, 134, 134);
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.heading-container {
+  display: flex;
+  justify-content: center;
+}
+.reset-button-container {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  margin-top: 80px;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.git-hub {
+  border: none;
+  padding: 5px 12px;
+  font-size: 14px;
+  margin-left: 4px;
+  border-radius: 4px;
+  background-color: rgb(171, 134, 134);
+}
+a {
+  text-decoration: none;
+  color: rgb(15, 5, 5);
+}
