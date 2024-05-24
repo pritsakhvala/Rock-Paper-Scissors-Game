@@ -34,7 +34,8 @@ body {
 .score {
   margin-top: 60px;
 }
-.reset-score-button {
+.reset-score-button,
+.auto-play-button {
   border: none;
   padding: 8px 15px;
   color: black;
@@ -44,6 +45,7 @@ body {
   cursor: pointer;
   border-radius: 12px;
   transition: opacity 0.15s, color 0.15s;
+  margin-right: 10px;
 }
 .reset-score-button:hover {
   opacity: 0.95;

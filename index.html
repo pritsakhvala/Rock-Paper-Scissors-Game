@@ -10,12 +10,7 @@
         <p class="heading">Rock Paper Scissors</p>
       </div>
       <div class="image-container">
-        <button
-          onclick="
-      playGame('rock');
-    "
-          class="image-button"
-        >
+        <button class="image-button js-rock-button">
           <img
             src="image/rock-image.png"
             alt="Rock image"
@@ -23,12 +18,7 @@
           />
         </button>
 
-        <button
-          onclick="
-      playGame('paper');
-    "
-          class="image-button"
-        >
+        <button class="image-button js-paper-button">
           <img
             src="image/paper-image.png"
             alt="Paper image"
@@ -36,13 +26,7 @@
           />
         </button>
 
-        <button
-          onclick="
-      playGame('scissors');
-    
-    "
-          class="image-button"
-        >
+        <button class="image-button js-scissors-button">
           <img
             src="image/scissors-image.png"
             alt="Scissors image"
@@ -71,6 +55,9 @@
           class="reset-score-button"
         >
           Reset Game
+        </button>
+        <button class="auto-play-button" onclick="autoplay();">
+          Auto Play
         </button>
       </div>
       <div class="footer-container">
